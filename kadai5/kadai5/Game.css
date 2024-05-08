@@ -1,0 +1,54 @@
+﻿body
+{
+    border: 1px solid;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 50px;
+    margin: 20px 80px 5px;
+}
+
+.flex_B-Box {
+    display: flex;
+}
+
+.flex_Texts {
+    flex-flow: column;
+}
+
+.flex_Text p {
+    font-size: 30px;
+    margin: 25px 80px;
+}
+
+.flex_items {
+    flex-flow: column;
+    margin-left:auto;
+}
+
+.flex_item img {
+    margin: auto 60px;
+}
+
+.flex_item2 img{
+    margin: auto auto auto 150px;
+}
+
+.flex_item3 img {
+    margin: auto auto auto 100px;
+}
+
+h3 {
+    font-size: 50px;
+    margin: 40px 80px 5px;
+}
+
+h4 {
+    font-size: 30px;
+    text-align:center;
+}

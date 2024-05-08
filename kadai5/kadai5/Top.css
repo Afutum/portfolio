@@ -1,0 +1,146 @@
+﻿body {
+    border: 1px solid;
+}
+
+h1{
+    text-align:center;
+}
+
+.flex_B-Box {
+    width: 95%;
+    margin: auto;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex_C-Box {
+    width: 95%;
+    margin: auto;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex_D-Box {
+    width: 95%;
+    margin: auto;
+    border: 1px solid;
+    display: flex;
+}
+
+div.href {
+    margin: auto;
+}
+
+.flex_Text h2{
+    font-size: 50px;
+    margin: 100px auto;
+}
+
+.flex_item img{
+    width:560px;
+    height:270px;
+    margin:10px auto;
+}
+
+@media (max-width: 1284px) {
+    /*.flex_B-Box {
+        width: 95%;
+        margin: auto;
+        border: 1px solid;
+        display: flex;
+        justify-content: center;
+    }
+
+    .flex_C-Box {
+        width: 95%;
+        margin: auto;
+        border: 1px solid;
+        display: flex;
+        justify-content: center;
+    }*/
+
+    .flex_Text h2 {
+        font-size: 40px;
+        margin: 25px auto auto auto;
+        margin: 100px auto;
+    }
+
+    .flex_item img {
+        width: 590px;
+        height: 280px;
+        margin: 10px auto;
+        text-align: right;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .flex_Text h2 {
+        font-size: 30px;
+        margin: 25px auto auto auto;
+        margin: 70px auto;
+    }
+
+    .flex_item img {
+        width: 320px;
+        height: 180px;
+        margin: 10px auto;
+        text-align: right;
+    }
+}
+
+@media (max-width: 739px) {
+
+    .flex_Text h2 {
+        font-size: 20px;
+        margin: 25px auto auto auto;
+        margin: 50px auto;
+    }
+
+    .flex_Text p {
+        font-size: 10px;
+    }
+
+    .flex_item img {
+        width: 270px;
+        height: 150px;
+        margin: 10px auto;
+        text-align: right;
+    }
+}
+
+@media (max-width: 504px) {
+
+    .flex_Text h2 {
+        font-size: 10px;
+        margin: 25px auto auto auto;
+    }
+
+    .flex_Text p {
+        font-size: 8px;
+    }
+
+    .flex_item img {
+        width: 150px;
+        height: 80px;
+        margin: 10px auto;
+        text-align: right;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .flex_Text h2 {
+        font-size: 10px;
+        margin: 25px auto auto auto;
+    }
+
+    .flex_item img {
+        width: 120px;
+        height: 80px;
+        margin: 10px auto;
+        text-align: right;
+    }
+}

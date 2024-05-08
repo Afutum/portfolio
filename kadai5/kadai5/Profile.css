@@ -1,0 +1,44 @@
+﻿body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex_A-box {
+    border: 1px solid;
+    margin: auto;
+}
+
+h1 {
+    font-size: 4.5em;
+    text-align: center;
+}
+
+p {
+    margin: 0px 0px 10px 150px;
+    font-size: 40px;
+}
+
+.c{
+    margin: 20px auto;
+}
+
+.flex_B-box {
+    display:flex;
+}
+
+.flex_a-item{
+    margin: 0px 0px 0px 500px;
+}
+
+p1 {
+    font-size: 40px;
+    margin:0px 0px 0px 150px;
+}
+
+.flex_a-Text{
+    margin:70px 0px auto 0px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
